@@ -43,7 +43,7 @@ def start(m):
         kb.add(types.InlineKeyboardButton("📢 Join", url="https://t.me/jndtech1"))
         kb.add(types.InlineKeyboardButton(f"📢 Join", url="https://t.me/LegendNumber92"))
         kb.add(types.InlineKeyboardButton(f"📢 Join", url="https://whatsapp.com/channel/0029Vb7TrKS2kNFqNa0SRI3C"))
-        kb.add(types.InlineKeyboardButton(f"📢 Join", url="https://whatsapp.com/channel/0029Vaf1X3f6hENsP7dKm81z"
+        kb.add(types.InlineKeyboardButton(f"📢 Join", url="https://whatsapp.com/channel/0029Vaf1X3f6hENsP7dKm81z"))
         kb.add(types.InlineKeyboardButton("✅ Verify", callback_data="verify"))
         bot.send_message(m.chat.id, "❌ <b>Join required channels first!</b>", reply_markup=kb)
         return
@@ -89,7 +89,7 @@ def pick_country(c):
         kb = types.InlineKeyboardMarkup()
         kb.add(types.InlineKeyboardButton("🔄 Change Number", callback_data=f"get|{country}"))
         kb.add(types.InlineKeyboardButton("🌍 Change Country", callback_data="change"))
-        kb.add(types.InlineKeyboardButton("📱 OTP Group", url="https://t.me/freeotpm"))
+        kb.add(types.InlineKeyboardButton("📱 OTP Group", url="https://t.me/otpnumber82"))
 
         bot.edit_message_text(
             f"🌍 <b>Your Number ({country})</b>\n\n📞 <code>{phone}</code>\n\n⏳ Waiting for OTP...",
